@@ -1,5 +1,5 @@
 ---
-
+import ConfigurationForm from '../components/ConfigurationForm'
 ---
 
 <html lang="en">
@@ -12,5 +12,6 @@
 	</head>
 	<body>
 		<h1>Astro</h1>
+		<ConfigurationForm client:load messages={["Hola", "Qué tal", "Hola a todos"]}/>
 	</body>
 </html>
